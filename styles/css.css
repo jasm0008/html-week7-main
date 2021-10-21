@@ -81,6 +81,7 @@ section{
     margin: 15px; /* margin is on the outside and pushes other elements away */
     border: 2px solid #0FF;
     padding: 15px; /* padding is on the inside and pushes content away from the edge*/
+    /* when you use four valus in padding or margin, it's top, right, bottom, left */
 
     /* you can style individually padding, margin (and even border) o n each side of the element:
     padding-top
