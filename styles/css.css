@@ -47,12 +47,14 @@ table {
 	border-spacing: 0;
 }
 /**************************************************
-                DEFAULT
-*************************************************** */
+                    DEFAULT
+****************************************************/
 
 html{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px; /*makes the math easier with ems and rems */
+    color: #0ff;
+    background: black;
 }
 
 h2{
@@ -61,4 +63,15 @@ h2{
 
 p{
     font-size: 1.6rem;/*  16px based on root size of 10px . 1.6 times 10 is 16px */
+}
+
+/**************************************************
+                        MAIN
+****************************************************/
+
+/* style the element with the ID container - limits the demension of 
+the elements together like an invisible box */
+#container{
+    width:1024px;
+    margin:20px;
 }
