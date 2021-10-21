@@ -78,6 +78,89 @@ the elements together like an invisible box */
     this will centre the element in the browser window */
 }
 
+
+/*  style the element with the class header-image */
+.header-image{
+    width: 100%; /* 100% of the width of whatever element this image is inside of */
+}
+
+/* .larger span{
+    display: block;
+
+    width: 200px;
+    height: 100px;
+    margin: 25px;
+    padding: 15px;
+    border: 2px solid yellow;
+} */
+
+/**************************************************
+                        NAV
+****************************************************/
+
+nav{
+    height: 44px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid black;
+}
+
+nav li{
+    float:left;  /* this will make the li elements, which are bloack elements, sit next to each other*/
+}
+
+nav a{
+     display:block; /* make the anchor tags into boxes so we can do something interesting to them*/
+     text-align: center;
+     margin:0 5px;/* 0 on the top and bottom, 5px on the left and right*/
+     text-decoration: none;/* removes the underline default from the links */
+     width: 142px;
+     height: 44px;
+}
+
+/* target the span inside, anchor tags, inside list items, inside the nav */
+nav li a span{
+    display: block;
+    float: left;
+    font-size: 1.6rem; /* 1.6 time the root font size set in HTML*/
+    line-height: 2.5; /* 2.5 times the font size of this element*/
+    color: blue;
+}
+
+nav a img{
+    width:22px;
+    padding: 0.7em 5px 0 15px; /* padding and margin can be set using multiple different units of measure all of which are interchangable
+    0.7 times the element's font size to the padding on the top
+    5px to the padding on the right
+    0 padding on the bottom - 0 doesn't need a unit, because 0 is always 0
+    15px to the padding on the left
+    */
+    float: left;
+}
+
+nav a:hover, .current{
+    background: #220044;
+    /* creates border with corner while hovering */
+    border-top-right-radius: 15px ;
+    border-top-left-radius: 15px ;
+}
+
+#play{
+    color: #0FF;
+    float: right; /* floating it the opposite way of the other floated elements - so it sits on the right of the screen */
+    font-size: 2.0rem;
+    background: #220044;
+    border: 1px salmon;
+    border-radius: 10px;     /* makes the corners look rounded */
+    padding: 0.5rem;
+    height: auto; /* override the height set onthe nav a - auto asks the browser to automatically 
+    calculate the height based on the contrent inside the element */
+
+}
+
+/**************************************************
+                        CONTENT
+****************************************************/
+
 /* adding a space between the elements */
 section{
     margin: 15px; /* margin is on the outside and pushes other elements away */
@@ -91,9 +174,4 @@ section{
     padding-left
     padding-right
      */
-}
-
-/*  style the element with the class header-image */
-.header-image{
-    width: 100%; /* 100% of the width of whatever element this image is inside of */
 }
