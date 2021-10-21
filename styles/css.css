@@ -74,6 +74,8 @@ the elements together like an invisible box */
 #container{
     width:1024px;
     margin:20px;
+    margin: 0 auto;/*  0 on the top and bottom, and "auto" and the left and the right
+    this will centre the element in the browser window */
 }
 
 /* adding a space between the elements */
@@ -89,4 +91,9 @@ section{
     padding-left
     padding-right
      */
+}
+
+/*  style the element with the class header-image */
+.header-image{
+    width: 100; /* 100% of the width of whatever element this image is inside of */
 }
