@@ -95,5 +95,5 @@ section{
 
 /*  style the element with the class header-image */
 .header-image{
-    width: 100; /* 100% of the width of whatever element this image is inside of */
+    width: 100%; /* 100% of the width of whatever element this image is inside of */
 }
