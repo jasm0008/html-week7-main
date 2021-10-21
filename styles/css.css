@@ -75,3 +75,17 @@ the elements together like an invisible box */
     width:1024px;
     margin:20px;
 }
+
+/* adding a space between the elements */
+section{
+    margin: 15px; /* margin is on the outside and pushes other elements away */
+    border: 2px solid #0FF;
+    padding: 15px; /* padding is on the inside and pushes content away from the edge*/
+
+    /* you can style individually padding, margin (and even border) o n each side of the element:
+    padding-top
+    padding-bottom
+    padding-left
+    padding-right
+     */
+}
